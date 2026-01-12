@@ -1,4 +1,8 @@
 # Laboratory Activity #1: Working with Digital Signals
+## 📖 Description
+This laboratory activity introduces the use of digital signals in an Arduino-based circuit. A running light system is implemented using multiple LEDs controlled through digital output pins. The activity focuses on understanding how digital signals operate using simple ON and OFF states through the digitalWrite() function.
+
+---
 
 ## 📌 Objectives
 
