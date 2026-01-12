@@ -49,8 +49,8 @@ The Arduino sketch must follow these rules:
 ## 🗂 Files Included
 | File Name | Description |
 |----------|-------------|
-| `lab1_activity.ino` | Arduino sketch containing the logic for configuring digital pins and controlling the LED sequence |
-| `lab1_breadboard_diagram.png` | Breadboard diagram illustrating the hardware connections between the Arduino, LEDs, and resistors |
+| `lab1_activity.ino` | Arduino sketch for configuring digital pins and running the sequential LED ON/OFF logic |
+| `lab1_breadboard_diagram.png` | Breadboard diagram showing Arduino connections to LEDs and resistors |
 ```
 
 
