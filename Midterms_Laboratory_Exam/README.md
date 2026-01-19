@@ -4,7 +4,7 @@
 
  This project involves designing and programming a smart lighting system using an Arduino for an outdoor environment. The system uses a photoresistor to measure ambient light intensity and controls three LEDs to visually represent lighting conditions. It supports both manual and automatic modes, allowing users to either define custom light thresholds or let the system adjust automatically based on environmental conditions such as cloudy or bright sunlight. 
 
-## 🖇️ Objectives 
+## 🖇️Objectives 
 
 * Measure ambient light intensity using a photoresistor
 * Convert analog sensor readings into percentage-based light intensity values
@@ -12,7 +12,7 @@
 * Implement manual and automatic operating modes
 * Enable user interaction through the serial monitor
 
-## 🛎️Concepts Applied
+## ⚓Concepts 
 
 * Analog-to-digital conversion using Arduino
 * Sensor-based input processing (photoresistor)
@@ -20,7 +20,7 @@
 * Serial communication for user interaction
 * State-based system design (Manual vs Automatic modes)
 
-## 🛠️System Overview
+## ⚙️System Overview
 
 The system uses a photoresistor connected to an analog pin to continuously read light intensity values. These readings are mapped from 0–1023 to 0–100%. Based on predefined thresholds, only one LED is activated at a time to indicate low, medium, or high light intensity. In manual mode, users can switch modes and configure threshold values using serial commands. In automatic mode, the system dynamically adjusts threshold values to simulate different environmental lighting conditions such as cloudy, normal, or bright sunlight. System status, including light intensity, active LED, current mode, and environment state, is displayed on the serial monitor every second.
 
