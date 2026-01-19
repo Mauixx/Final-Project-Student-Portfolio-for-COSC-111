@@ -12,7 +12,7 @@ This project involves the design and implementation of an Arduino-to-Python clie
 * Trigger remote LED actions through HTTP requests
 * Enforce correct communication and behavior rules between systems
 
-## 🛎️Concepts Applied
+## ⚓Concepts
 
 * Arduino digital input handling and software debouncing
 * Serial communication between Arduino and Python
@@ -21,7 +21,7 @@ This project involves the design and implementation of an Arduino-to-Python clie
 * Input validation and error handling
 * Event-driven system behavior
 
-## 🛠️System Overview
+## ⚙️System Overview
 
 The system is composed of three main parts: an Arduino input device, a Python client application, and a remote API-controlled LED system. The Arduino detects a push button press and sends a single serial signal representing its assigned group number to the Python client. The Python application continuously listens to the serial port, validates and normalizes the received input, and sends an HTTP request to the API endpoint following the required format. Feedback such as the group number, endpoint called, and API response status is displayed in the terminal. Communication rules ensure that each button press results in only one API request and that long presses do not trigger repeated calls.
 
@@ -29,7 +29,6 @@ The system is composed of three main parts: an Arduino input device, a Python cl
 
 This project demonstrates a practical Internet of Things (IoT) architecture where hardware input devices are integrated with web-based services through an intermediary software client. By separating hardware control, serial communication, and API interaction, the system highlights scalable and modular design principles commonly used in real-world IoT applications.
 
----
 
 ## 🗂 Files Included
 | File Name | Description |
