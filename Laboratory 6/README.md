@@ -1,20 +1,18 @@
 # Laboratory Activity #6: Bidirectional Control Using Arduino and Python
 
-## 📖 Description
+## 📜Description
 
 This activity introduces **bidirectional serial communication** between Arduino and Python. Students will build a circuit with three LEDs and three push buttons. Arduino will send signals to Python when buttons are pressed, and Python will respond by sending commands back to toggle specific LEDs. This demonstrates interactive control and real-time feedback in Arduino-Python systems.
 
----
 
-## 🎯 Objectives
+## 🖇️Objectives
 
 * Understand and implement Arduino Serial communication
 * Use Python to interact with Arduino in real time
 * Create a bidirectional control system where Arduino sends signals to Python and receives commands back
 
----
 
-## 💡 Concepts Applied
+## ⚓Concepts 
 
 * Serial communication for two-way data exchange
 * Button input detection in Arduino
@@ -23,9 +21,8 @@ This activity introduces **bidirectional serial communication** between Arduino 
 * Real-time response (<1 second)
 * Modular programming using functions for button and LED management
 
----
 
-## 🛠 System Overview
+## ⚙️System Overview
 
 * **Components:** Arduino MCU, 3 LEDs (Red, Green, Blue), 3 push buttons, resistors, wires, breadboard, laptop with Python and `pyserial`
 
@@ -45,7 +42,9 @@ This activity introduces **bidirectional serial communication** between Arduino 
   * Sends back `1`, `2`, or `3` to Arduino to toggle the corresponding LED
   * Runs continuously and responds within <1 second
 
----
+## 💡Conclusion
+
+This laboratory activity demonstrates the effectiveness of bidirectional communication between Arduino and Python for real-time system control. By combining button-based input, serial data exchange, and LED actuation, students gain hands-on experience with interactive embedded systems. The activity reinforces key IoT concepts such as real-time feedback, event-driven behavior, and reliable two-way communication between hardware and software components.
 
 ## 🗂 Files Included
 | File Name | Description |
