@@ -1,51 +1,31 @@
 # Laboratory Activity #1: Working with Digital Signals
-## 📖 Description
-This laboratory activity introduces the use of digital signals in an Arduino-based circuit. A running light system is implemented using multiple LEDs controlled through digital output pins. The activity focuses on understanding how digital signals operate using simple ON and OFF states through the digitalWrite() function.
 
----
+## 📜Description
 
-## 📌 Objectives
+This activity demonstrates the use of Arduino digital output pins to create a running light effect using multiple LEDs. It highlights how digital signals can be used to control hardware components sequentially, which is a fundamental concept in Arduino-based and IoT-related systems.
 
-This laboratory activity aims to:
+## 🖇️Objectives
 
-1. Review **Arduino** as a device for **IoT systems implementation**
-2. Understand **digital signals** and their implementation in an **Arduino circuit**
+1. Review Arduino as a device for IoT systems implementation.
+2. Discuss digital signals and their implementation in an Arduino circuit.
 
----
+## ⚓Concepts
+
+* Arduino digital output control using `digitalWrite()`
+* Digital signal states (HIGH and LOW)
+* Sequential logic in embedded systems
+* Timing control using the `delay()` function
+* Basic LED interfacing with Arduino
+
+## ⚙️System Overview
+
+The system consists of an Arduino board connected to five LEDs using digital pins 8 to 12. The Arduino program activates the LEDs sequentially from pin 12 down to pin 8 to create a running light effect. After all LEDs are turned on, the same sequence is used to turn them off. A one-second delay between each step controls the speed of the running light pattern.
+
+## 💡Conclusion
+
+This activity reinforces essential Arduino programming concepts, particularly digital signal control and sequential execution. By implementing a running light circuit, students gain practical experience in controlling multiple outputs, which is a foundational skill for developing more complex IoT and embedded system applications.
 
 
-
-## 🔌 Circuit Description
-
-This activity involves creating a **running light circuit** using digital output pins on the Arduino.
-
-* LEDs are connected to **digital pins 8 to 12**
-* Each LED is connected in series with a resistor
-* The cathode (short leg) of each LED is connected to **GND**
-
----
-
-## ⚙️ Program Requirements
-
-The Arduino sketch must follow these rules:
-
-* Use **digital pins 8 to 12**
-* Create a **running light effect** from pin **12 down to pin 8**
-* Delay between LED actions: **1 second**
-* Turn **all LEDs ON one by one**
-* Then turn **all LEDs OFF one by one**
-* Use the `digitalWrite()` function to control the LEDs
-
----
-
-## 🧠 How It Works
-
-1. The Arduino sets pins **8 to 12** as OUTPUT pins.
-2. LEDs turn ON sequentially from **pin 12 to pin 8**, each after a 1-second delay.
-3. Once all LEDs are ON, they turn OFF in the same order.
-4. The sequence repeats continuously inside the `loop()` function.
-
----
 ## 🗂 Files Included
 | File Name | Description |
 |----------|-------------|
